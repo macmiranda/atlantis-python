@@ -7,7 +7,7 @@
   "requireConfig": false,
   "branchPrefix": "renovate-local/",
   "username": "renovate-local[bot]",
-  "gitAuthor": "Renovate Local Bot <123839294+renovate-local[bot]@users.noreply.github.enterprise.com>",
+  "gitAuthor": "Renovate Local Bot <123839294+renovate-local[bot]@users.noreply.github.com>",
   "repositories": ["macmiranda/atlantis-python"],
   "packageRules": [
     {
