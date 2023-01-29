@@ -3,6 +3,12 @@
   "extends": [
     "config:base"
   ],
+  "onboarding": false,
+  "requireConfig": false,
+  "branchPrefix": "renovate-local",
+  "username": "renovate-local[bot]",
+  "gitAuthor": "Renovate Local Bot <123839294+renovate-local[bot]@users.noreply.github.enterprise.com>",
+  "repositories": ["macmiranda/atlantis-python"],
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
