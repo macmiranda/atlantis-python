@@ -4,7 +4,7 @@
     "config:base"
   ],
   "onboarding": false,
-  "requireConfig": false,
+  "requireConfig": "optional",
   "branchPrefix": "renovate-local/",
   "username": "renovate-local[bot]",
   "gitAuthor": "Renovate Local Bot <123839294+renovate-local[bot]@users.noreply.github.com>",
