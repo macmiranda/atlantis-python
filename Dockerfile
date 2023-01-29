@@ -1,4 +1,4 @@
-FROM ghcr.io/runatlantis/atlantis:v0.22.2
+FROM ghcr.io/runatlantis/atlantis:v0.22.3
 
 RUN apk add --no-cache --update \
     python3
