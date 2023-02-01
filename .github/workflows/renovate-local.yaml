@@ -4,6 +4,14 @@ on:
     - cron: '07 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+  checks: write
+  issues: write
+  statuses: write
+
 jobs:
   renovate:
     runs-on: ubuntu-latest
