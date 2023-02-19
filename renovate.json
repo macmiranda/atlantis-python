@@ -12,7 +12,7 @@
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["digest"],
+      "matchUpdateTypes": ["digest", "minor", "patch"],
       "automerge": true,
       "automergeType": "branch"
     }
