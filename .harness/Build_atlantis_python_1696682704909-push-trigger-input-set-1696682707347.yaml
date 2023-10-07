@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_atlantis_python_1696682704909-push-trigger-input-set
+  identifier: Build_atlantis_python_1696682704909pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_atlantis_python_1696682704909
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
