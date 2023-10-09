@@ -21,6 +21,7 @@ pipeline:
                   identifier: dockerbuild
                   name: docker_build
                   spec:
+                    connectorRef: account.harnessImage
                     image: plugins/docker
                     settings:
                       dry_run: "true"
@@ -29,9 +30,9 @@ pipeline:
                   timeout: ""
                   type: Plugin
           platform:
-            arch: Amd64
             os: Linux
+            arch: Arm64
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
