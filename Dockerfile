@@ -1,4 +1,4 @@
-FROM ghcr.io/runatlantis/atlantis:v0.28.3
+FROM ghcr.io/runatlantis/atlantis:v0.29.0
 
 USER root
 RUN apk add --no-cache --update \
